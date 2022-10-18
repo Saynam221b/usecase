@@ -14,6 +14,13 @@ public class EmployeeEntity {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
 	private String employee_name;
+	public String getDept() {
+		return dept;
+	}
+	public void setDept(String dept) {
+		this.dept = dept;
+	}
+	private String dept;
 
 	
 	public Integer getId() {

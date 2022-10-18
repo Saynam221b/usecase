@@ -27,5 +27,14 @@ public class SchoolEntity {
 		this.school_name = school_name;
 	}
 	private String school_name;
+	private String dept;
+	
+	public String getDept() {
+		return dept;
+	}
+	
+	public void setDept(String dept) {
+		this.dept = dept;
+	}
 	
 }
